@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.0.1](https://github.com/mason-org/mason-lspconfig.nvim/compare/v2.0.0...v2.0.1) (2025-05-20)
+
+
+### Bug Fixes
+
+* remove omnisharp configuration ([#556](https://github.com/mason-org/mason-lspconfig.nvim/issues/556)) ([c5fba52](https://github.com/mason-org/mason-lspconfig.nvim/commit/c5fba52548ff0722ffef127b0859d761a8118099))
+
+
+### Performance Improvements
+
+* host pre-compiled filetype mappings ([#555](https://github.com/mason-org/mason-lspconfig.nvim/issues/555)) ([1d67304](https://github.com/mason-org/mason-lspconfig.nvim/commit/1d6730459c42f591602500da994f01ae43a97dbc))
+
 ## [2.0.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.32.0...v2.0.0) (2025-05-06)
 
 This release adds support for the new native LSP configuration mechanism (see `vim.lsp.config`) added in Neovim v0.11.
